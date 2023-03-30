@@ -21,6 +21,12 @@ conda install tensorboard
 pip install opencv-python
 ```
 
+Then, you need download the dataset [CelebaHQ here](https://www.kaggle.com/datasets/badasstechie/celebahq-resized-256x256). Put it in the `./data` directory and unzip.
+
+```shell
+unzip achieve.zip
+```
+
 ## Usage
 
 To **train** the model, run the following command:
